@@ -6,7 +6,7 @@ TD 00
 Exercice 1
 
 5) 
-groupId : Identificateur unique du projet (souvent le nom de l'organisation ou de l'équipe créatrice).
+groupId : Identificateur unique du projet (souvent le nom de l'organisation ou le nom de l'équipe créatrice).
 artifactId : le nom de l'artifact principale généré par le projet (souvent sous forme de fichier JAR). 
 
 6) le répertoire target contient la version compilée des fichiers du projet. 
@@ -29,7 +29,7 @@ Exercice 3
 
 5) shortcut vers la création d'une méthode publique static main. 
 
-6) shortcuts vers la création de getter et setter sur le champs toto. 
+6) shortcuts vers la création de getter et setter sur le champ toto. 
 
 7) cela permet de renommer une classe ou un champs dans tout le projet. 
 
@@ -64,7 +64,7 @@ Exercice 2
 5) le push est impossible car la branche courante est en retard par rapport à la version disponible sur l'origin gitHub. 
 
 6) le fichier contient les deux modifications apportées. 
-Les modifications présentes dans l'origine ont formé une branch qui à été fusionnée lors de la récupération de ces-dernières localement sur la branch master courante. 
+Les modifications présentes dans l'origine ont formé une branch qui à été fusionnée lors de la récupération de ces modifications localement sur la branch master courante. 
 
 
 7) Un conflit de merge serait apparu. C'est au développeur de choisir le changement apporté qui convient le mieux.
@@ -75,7 +75,7 @@ Exercice 3
 2) Tous les test passent il n'y a aucunes erreurs. 
 Avec le changement les test échouent. 
 
-assertTrue permet de tester si une valeur de retour est le booléen vrai. 
+assertTrue permet de tester si une valeur de retour correspond au booléen vrai. 
 
 
 
