@@ -16,7 +16,7 @@ public class PrimeCollection {
 
     public static void main(String[] args) {
         PrimeCollection prime = new PrimeCollection(new ArrayList<>());
-        prime.initRandom(100, 1000);
+        prime.initRandom(100, 2000);
         prime.printPrimes();
     }
 
