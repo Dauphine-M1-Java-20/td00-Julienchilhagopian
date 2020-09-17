@@ -28,3 +28,6 @@ Exercice 3
 
 7) cela permet de renommer une classe ou un champs dans tout le projet. 
 
+
+
+modif depuis originale
