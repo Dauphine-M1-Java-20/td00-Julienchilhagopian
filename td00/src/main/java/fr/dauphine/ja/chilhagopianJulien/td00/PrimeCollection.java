@@ -27,7 +27,7 @@ public class PrimeCollection {
         }
     }
 
-    private Boolean isPrime(int p) {
+    public Boolean isPrime(int p) {
         Boolean prime = true;
         if (p <= 1) {
             prime = false;
