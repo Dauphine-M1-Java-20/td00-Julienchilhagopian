@@ -1,6 +1,7 @@
 Julien CHIL HAGOPIAN
 
-Changement depuis clone
+
+TD 00
 
 Exercice 1
 
@@ -8,14 +9,16 @@ Exercice 1
 groupId : Identificateur unique du projet (souvent le nom de l'organisation ou de l'équipe créatrice).
 artifactId : le nom de l'artifact principale généré par le projet (souvent sous forme de fichier JAR). 
 
+6) le répertoire target contient la version compilée des fichiers du projet. 
+
 13) 
 maven.compiler.target permet de compiler un projet java dans une version différente que celle utilisée localement sur la machine. 
+Valeur : 1.8
 
 
 Exercice 2
 
-1) Le fichier JAR n'est pas exécutable pour l'instant. 
-De plus avec java -jar target/td00-1.0-SNAPSHOT. La console ne trouve pas le fichier jar. 
+1) Le fichier JAR n'est pas exécutable pour l'instant.  
 
 
 Exercice 3 
@@ -31,5 +34,48 @@ Exercice 3
 7) cela permet de renommer une classe ou un champs dans tout le projet. 
 
 
+TD 00bis
 
-modif depuis originale
+Exercice 1 
+
+2) 
+
+Liste des fichiers nécessaires : 
+- Tout le dossier ./src. 
+- Le pom.xml
+
+Liste des fichiers inutiles :
+- ./target 
+- .idea (les settings intelliJ
+- .DS_Store (spécifique Mac) 
+- .settings/ (les settings eclipse). 
+
+
+5) On aperçoit le changement effectué dans la class. 
+
+
+8) Hash du premier commit : 2eeb043aef00d87b8ed0ddd4252620682e4ef1c8
+
+
+Exercice 2 
+
+3) Un encadrement "remote/origin" a été ajouté sur le dernier commit (HEAD).
+
+5) le push est impossible car la branche courante est en retard par rapport à la version disponible sur l'origin gitHub. 
+
+6) le fichier contient les deux modifications apportées. 
+Les modifications présentes dans l'origine ont formé une branch qui à été fusionnée lors de la récupération de ces-dernières localement sur la branch master courante. 
+
+
+7) Un conflit de merge serait apparu. C'est au développeur de choisir le changement apporté qui convient le mieux.
+
+
+Exercice 3 
+
+2) Tous les test passent il n'y a aucunes erreurs. 
+Avec le changement les test échouent. 
+
+assertTrue permet de tester si une valeur de retour est le booléen vrai. 
+
+
+
