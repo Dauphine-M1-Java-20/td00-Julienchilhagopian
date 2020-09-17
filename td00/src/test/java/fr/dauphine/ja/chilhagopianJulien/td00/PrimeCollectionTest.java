@@ -31,8 +31,10 @@ public class PrimeCollectionTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testPrimeCollection()
     {
         assertTrue( true );
     }
+
+    
 }
