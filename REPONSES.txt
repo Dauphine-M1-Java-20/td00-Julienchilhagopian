@@ -1,0 +1,30 @@
+Julien CHIL HAGOPIAN
+
+Exercice 1
+
+5) 
+groupId : Identificateur unique du projet (souvent le nom de l'organisation ou de l'équipe créatrice).
+artifactId : le nom de l'artifact principale généré par le projet (souvent sous forme de fichier JAR). 
+
+13) 
+maven.compiler.target permet de compiler un projet java dans une version différente que celle utilisée localement sur la machine. 
+
+
+Exercice 2
+
+1) Le fichier JAR n'est pas exécutable pour l'instant. 
+De plus avec java -jar target/td00-1.0-SNAPSHOT. La console ne trouve pas le fichier jar. 
+
+
+Exercice 3 
+
+3) c'est un shortcut vers System.out.println();
+
+4) shortcut vers toString(). 
+
+5) shortcut vers la création d'une méthode publique static main. 
+
+6) shortcuts vers la création de getter et setter sur le champs toto. 
+
+7) cela permet de renommer une classe ou un champs dans tout le projet. 
+
